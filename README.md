@@ -36,12 +36,6 @@ where \( \lambda_t \) increases linearly during training.
 
 ## Citation
 
-If you use this work, please cite:
-
-
-
-## Citation
-
 If you use this work, please cite the original paper:
 
 ```bibtex
