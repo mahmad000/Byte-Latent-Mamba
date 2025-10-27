@@ -38,9 +38,18 @@ where \( \lambda_t \) increases linearly during training.
 
 If you use this work, please cite:
 
+
+
+## Citation
+
+If you use this work, please cite the original paper:
+
+```bibtex
 @article{Ahmad2025BLMKD,
   title   = {Byte Latent Mamba with State Space and Knowledge Distillation for Hyperspectral Image Classification},
   author  = {Muhammad Ahmad and Manuel Mazzara and Salvatore Distefano and Adil Mehmood Khan},
   journal = {IEEE Transactions on Geoscience and Remote Sensing},
   year    = {2025}
 }
+```
+
