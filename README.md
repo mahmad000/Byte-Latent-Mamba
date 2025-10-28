@@ -2,7 +2,7 @@
 [IEEE TGRS] Byte Latent Mamba with State Space and Knowledge Distillation for Hyperspectral Image Classification
 
 > Official implementation of **“Byte Latent Mamba with State Space and Knowledge Distillation for Hyperspectral Image Classification (HSIC)”**, accepted at **IEEE Transactions on Geoscience and Remote Sensing (TGRS)**.  
-> BLM-KD removes explicit tokenization, learns **byte-level spectral–spatial representations**, integrates a **Structured State-Space Model (SSSM)** for long-range dependencies, and applies **adaptive knowledge distillation** for a compact, accurate student model.
+> BLM-KD removes explicit tokenization, learns **byte-level spectral–spatial representations**, integrates a **Selective State-Space Model (SSSM)** for long-range dependencies, and applies **adaptive knowledge distillation** for a compact, accurate student model.
 
 ---
 
@@ -13,7 +13,7 @@
 # Highlights
 
 - **Byte Latent Representations (BLR):** Learns byte-level spectral–spatial encodings without tokenization.
-- **Structured State-Space Modeling (SSSM):** Models long-range spectral and spatial dependencies.
+- **Selective State-Space Modeling (SSSM):** Models long-range spectral and spatial dependencies.
 - **Adaptive Knowledge Distillation (KD):** Teacher–student distillation with temperature and warm-up schedule.
 - **Scalable Training Strategy:** Balances model complexity and performance.
 
@@ -23,7 +23,7 @@
 
 The BLM-KD pipeline integrates:
 - Byte-level convolutional encoder  
-- Structured State-Space Model (SSM)  
+- Selective State-Space Model (SSM)  
 - Classification head with adaptive knowledge distillation  
 - Loss function combining supervised and soft distillation terms:
   
